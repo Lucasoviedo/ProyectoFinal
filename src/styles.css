@@ -1,1 +1,115 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+    background-color:rgb(214, 214, 214);
+    margin: 0%;
+    font-family: 'Oswald', sans-serif;
+}
+
+html{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* HEADER */
+
+header{
+    background-color:rgba(190, 190, 190, 0.623);
+    color: rgb(0, 0, 0);
+    
+    padding: 5px;
+    text-align: center;
+}
+
+.headerBoton{
+    color: rgb(0, 0, 0);
+    padding: 15px;
+}
+
+.headerBoton:hover{
+    color: rgb(78, 77, 77);
+}
+
+.btnHeader{
+    color: white;
+    background-color:black;
+}
+
+.btnHeader:hover{
+    background-color: rgb(78, 77, 77);
+}
+
+.banner{
+background-image: url("../src/assets/images/Diario.jpg");
+}
+
+.imgPerfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid;
+    filter: grayscale(10%);
+}
+
+/* EXPERIENCIA LABORAL*/
+
+.accordionButton {
+    
+    background-color:rgba(160, 157, 157, 0.623);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+.active, .accordionButton:hover {
+    background-color: #eee;
+  }
+  
+  .accordionBody {
+    padding: 0 18px;
+    background-color:rgba(212, 212, 212, 0.623);
+    overflow: hidden;
+    display: block;
+  }
+
+  .accordionButton:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+/* EDUCACION */
+
+.formacion_list_img{
+    border-radius: 2rem;
+    padding: 1rem;
+    filter: grayscale(80%);
+}
+
+.formacion_list_img:hover{
+    background-color:rgba(235, 232, 232, 0.623);
+    filter: grayscale(20%);
+}
+
+.columnaStack{
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    filter: grayscale(80%);
+}
+
+
+.columnaStack:hover{
+    background-color:rgba(235, 232, 232, 0.623);
+    filter: grayscale(20%);
+}
