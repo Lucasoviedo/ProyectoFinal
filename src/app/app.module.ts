@@ -13,6 +13,8 @@ import { AcercaDeMiComponent } from './components/acerca-de-mi/acerca-de-mi.comp
 import { ExperienciaLaboralComponent } from './components/experiencia-laboral/experiencia-laboral.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { StackTecnologicoComponent } from './components/stack-tecnologico/stack-tecnologico.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { StackTecnologicoComponent } from './components/stack-tecnologico/stack-
     ExperienciaLaboralComponent,
     EducacionComponent,
     StackTecnologicoComponent,
+    ProyectosComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

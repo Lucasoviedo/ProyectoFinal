@@ -30,12 +30,8 @@ header{
 }
 
 .btnHeader{
-    color: white;
-    background-color:black;
-}
-
-.btnHeader:hover{
-    background-color: rgb(78, 77, 77);
+    margin-top: 20px;
+    margin-right: 10px;
 }
 
 .banner{
