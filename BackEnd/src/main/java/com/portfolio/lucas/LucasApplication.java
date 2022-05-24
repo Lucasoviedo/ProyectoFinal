@@ -1,13 +1,13 @@
-package com.portfolioLucas.port;
+package com.portfolio.lucas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PortApplication {
+public class LucasApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PortApplication.class, args);
+		SpringApplication.run(LucasApplication.class, args);
 	}
 
 }

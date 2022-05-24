@@ -1,10 +1,10 @@
-package com.portfolioLucas.port;
+package com.portfolio.lucas;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PortApplicationTests {
+class LucasApplicationTests {
 
 	@Test
 	void contextLoads() {
